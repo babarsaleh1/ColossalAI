@@ -41,3 +41,4 @@ class ExperienceBuffer(ABC):
     @abstractmethod
     def collate_fn(self, batch: Any) -> Experience:
         pass
+ def __init__(self, sample_batch_size: int, limit: int = 0) -> NonE.UPDATE
